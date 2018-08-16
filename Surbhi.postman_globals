@@ -1,0 +1,626 @@
+{
+  "id": "d0ac07b8-4b6d-4974-8f1b-94efb81243ed",
+  "values": [
+    {
+      "value": 8,
+      "key": "industryCodeTypeID",
+      "enabled": true
+    },
+    {
+      "value": "DAJ_Test_Industry_Code",
+      "key": "industryCodeName",
+      "enabled": true
+    },
+    {
+      "value": "1",
+      "key": "industryCodeType_ValueID",
+      "enabled": true
+    },
+    {
+      "value": "DAJ_Test_01",
+      "key": "industryCodeType_ValueName",
+      "enabled": true
+    },
+    {
+      "value": "100",
+      "key": "industryCodeType_ValueSortOrder",
+      "enabled": true
+    },
+    {
+      "value": "DAJ001",
+      "key": "industryCodeType_ValueCode",
+      "enabled": true
+    },
+    {
+      "value": "This is a test.",
+      "key": "industryCodeType_ValueNote",
+      "enabled": true
+    },
+    {
+      "value": 89,
+      "key": "ratingTypeID",
+      "enabled": true
+    },
+    {
+      "value": 1,
+      "key": "ratingTypeSortOrder",
+      "enabled": true
+    },
+    {
+      "value": "HAB_Test_01",
+      "key": "ratingType_ValueName",
+      "enabled": true
+    },
+    {
+      "value": "100",
+      "key": "ratingType_ValueSortOrder",
+      "enabled": true
+    },
+    {
+      "value": "0.01",
+      "key": "ratingType_ValueWeight",
+      "enabled": true
+    },
+    {
+      "value": "Rating Test",
+      "key": "ratingType_ValueNote",
+      "enabled": true
+    },
+    {
+      "value": "89",
+      "key": "ratingType_ValueID",
+      "enabled": true
+    },
+    {
+      "value": "HB",
+      "key": "RatingValueName_ExactMatch",
+      "enabled": true
+    },
+    {
+      "value": "{{$timestamp}}Issuer",
+      "key": "issuerName",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}",
+      "key": "issuerID",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}",
+      "key": "issuer_IndustryCode",
+      "enabled": true
+    },
+    {
+      "value": "1304",
+      "key": "bondID",
+      "enabled": true
+    },
+    {
+      "value": "APITestIssuerName",
+      "key": "IssuerNameExactMatch",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Issuers/349/IndustryCodes/109",
+      "key": "deleteIssuerRequest",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Issuers/720/Ratings/178",
+      "key": "deleteIssuerRatingsRequest",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}ratingName",
+      "key": "ratingTypeName",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}",
+      "key": "ratingID",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269:80/Master/SecurityMaster",
+      "key": "responseURI",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}ratingValue",
+      "key": "ratingValueName",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}equity",
+      "key": "equityType",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}equity_description",
+      "key": "description",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}identifierType",
+      "key": "equityidentifierType",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Equities/1619/Ratings/205",
+      "key": "deleteEquityRating",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Equities/1601/Identifiers/579",
+      "key": "deleteEquityIdentifier",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster",
+      "key": "responseURI_ENV",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}",
+      "key": "bankDealId_Faclities",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/1188/Currencies/JPY",
+      "key": "deleteFaciliesCurrencies",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/1435/FacilityRateOptions/3789",
+      "key": "deleteFaciliesRateOption",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/1635/RateLimits/40?facilityRateOptionId=3752",
+      "key": "deleteFaciliesRateLimits",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/34/CallSchedule/73",
+      "key": "deleteFaciliesRatings",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}_id",
+      "key": "Identify",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}_identifier",
+      "key": "identifierTypeName",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/34/CallSchedule",
+      "key": "getFacilitiesSchedule",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Facilities/34/CallSchedule/89",
+      "key": "getFacilitiesIdCallSchedule",
+      "enabled": true
+    },
+    {
+      "value": "{{$randomInt}}_bond",
+      "key": "BondName",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/Bonds/1656/CouponRateSchedule/220",
+      "key": "getBondCouponRateSchedule",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/ABS/1099/Attributables/16",
+      "key": "deleteABSAttributables",
+      "enabled": true
+    },
+    {
+      "value": 2,
+      "key": "industryCodeSortOrder",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/ABS/1099/Identifiers/582",
+      "key": "deleteABSIdentifiers",
+      "enabled": true
+    },
+    {
+      "value": "http://ric1dvwsoapp269/Master/SecurityMaster/v1/ABS/42/Ratings/224",
+      "key": "deleteABSRatings",
+      "enabled": true
+    },
+    {
+      "value": 1694,
+      "key": "facility_udf_id",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityTextUDF",
+      "key": "FacTxtUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "TestString",
+      "key": "FacTxtVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityLongUDF",
+      "key": "FacLongUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "1234567",
+      "key": "FacLongVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityDoubleUDF",
+      "key": "FacDoubleUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "123.25478",
+      "key": "FacDoubleVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityDateUDF",
+      "key": "FacDtUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "2017-07-21T00:00:00",
+      "key": "FacDtVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityCurrencyUDF",
+      "key": "FacCurUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "15.26",
+      "key": "FacCurVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "FacilityBooleanUDF",
+      "key": "FacBoolUDF",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "1",
+      "key": "facBoolVal",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "TestString123",
+      "key": "FacTxtValput",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "2345678",
+      "key": "FacLongValput",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "112.564239",
+      "key": "FacDoubleValput",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "2018-07-21T06:10:43",
+      "key": "FacDtValput",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "23.76",
+      "key": "FacCurValput",
+      "enabled": true
+    },
+    {
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "value": "0",
+      "key": "facBoolValput",
+      "enabled": true
+    },
+    {
+      "value": 1221,
+      "key": "issuer_udf_id",
+      "enabled": true
+    },
+    {
+      "key": "IssuerTxtUDF",
+      "value": "IssueTextUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerTxtVal",
+      "value": "String123",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerBoolUDF",
+      "value": "IssuerBooleanUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerCurUDF",
+      "value": "IssuerCurrencyUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDtUDF",
+      "value": "IssuerDateUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDoubleUDF",
+      "value": "IssuerDoubleUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerLongUDF",
+      "value": "IssuerLongUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerBoolVal",
+      "value": "1",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerCurVal",
+      "value": "15.26\n",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDtVal",
+      "value": "2018-07-21T06:10:43",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDoubleVal",
+      "value": "123.25478",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerLongVal",
+      "value": "1234567",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerTxtValput",
+      "value": "123String",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerCurValput",
+      "value": "456.78",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDtValput",
+      "value": "2012-07-21T09:40:54",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerDoubleValput",
+      "value": "495.76532",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "IssuerLongValput",
+      "value": "3456789",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "value": "DAJ",
+      "key": "variablePrefix",
+      "enabled": true
+    },
+    {
+      "value": "2018-07-05T05:00:00.000Z",
+      "key": "lastRunDate",
+      "enabled": true
+    },
+    {
+      "value": "DAJ_BD_2018-07-05_4",
+      "key": "bankDealName",
+      "enabled": true
+    },
+    {
+      "value": 4,
+      "key": "bankDealNameIncremental",
+      "enabled": true
+    },
+    {
+      "value": "1",
+      "key": "bankDealID",
+      "enabled": true
+    },
+    {
+      "value": "Surbhi",
+      "key": "Name",
+      "enabled": true
+    },
+    {
+      "key": "equity_udf_id",
+      "value": "1718",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquTextValue",
+      "value": "AssetBHTest",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquBoolVal",
+      "value": "1",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquCurVal",
+      "value": "15.26",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquDtVal",
+      "value": "2017-07-20T00:00:00",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquDoubleVal",
+      "value": "12.36547",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquLongVal",
+      "value": "123456498",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquTextUDF",
+      "value": "AssetBHTest",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquBoolUDF",
+      "value": "AssetBooleanUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquCurUDF",
+      "value": "AssetCurrencyUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquDtUDF",
+      "value": "AssetDateUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquDoubleUDF",
+      "value": "AssetDoubleUDF",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "key": "EquLongUDF",
+      "value": "AssetLongUDF",
+      "description": "",
+      "enabled": true
+    }
+  ],
+  "name": "My Workspace Globals",
+  "_postman_variable_scope": "globals",
+  "_postman_exported_at": "2018-08-13T07:52:07.091Z",
+  "_postman_exported_using": "Postman/6.2.1"
+}
